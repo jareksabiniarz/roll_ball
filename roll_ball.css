@@ -1,0 +1,109 @@
+body
+{
+	background-color: #44aa77;
+	font-family: 'Wallpoet', cursive;
+	color: #D8EB2E;
+}
+
+#game
+{
+	width: 450px;
+	height: 520px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	background-color: pink;
+	margin: auto;
+	font-size: 0;
+}
+
+#name, #instruction
+{
+	margin: auto;
+	width: 450px;
+	height: 30px;
+	font-size: 24px;
+	background-color: #222222;
+	text-align: center;
+	border: 2px solid #666666;
+	box-sizing: border-box;
+}
+
+#name
+{
+	border-bottom: 1px solid #666666;
+	cursor: pointer;
+}
+
+#instruction
+{
+	border-top: 1px solid #666666;
+	border-bottom: 1px solid #666666;
+	font-size: 20px;
+}
+
+
+#name:hover
+{
+	background-color: #889988;
+}
+
+#goal_counter, #timer
+{
+	width: 225px;
+	height: 30px;
+	font-size: 20px;
+	background-color: #222222;
+	text-align: center;
+	border: 2px solid #666666;
+	box-sizing: border-box;
+	display: inline-block;
+	border-top: 1px solid #666666;
+}
+
+#goal_counter
+{
+	border-right: 1px solid #666666;
+}
+
+#timer
+{
+	border-left: 1px solid #666666;
+}
+
+#field
+{
+	position: absolute;
+	margin: auto;
+	width: 450px;
+	height: 450px;
+	background-color: #119911;
+	border: 2px solid #EEEEEE;
+	box-sizing: border-box;
+
+}
+
+img 
+{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#gate
+{
+	width: 80px;
+	height: 80px;
+	bottom: 13px;
+	left: 13px;
+}
+
+#ball
+{
+	width: 40px;
+	height: 40px;
+	position: relative;
+	margin-top: 0;
+	margin-left: 0;
+}

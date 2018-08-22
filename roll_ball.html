@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+	<meta charset="utf-8"/>
+	<title>Roll ball!</title>
+	<link rel="stylesheet" href="roll_ball.css" type="text/css">
+	<script src="roll_ball.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Wallpoet" rel="stylesheet"> 
+</head>
+
+<body onkeydown="key_press(event)" onload="init()">
+	<div id="game">
+		<div id="name" onclick="random_position()">Roll ball!</div>
+		<div id="instruction">Use arrow-keys to score a goal!</div>
+		<div id="goal_counter"></div>
+		<div id="timer"></div>
+		<div id="field">
+			<div id="gate"><img src="gate2.png"></div>
+			<div id="ball"><img src="ball.png"></div>
+		</div>
+	</div>
+
+</body>
+</html>
